@@ -10,18 +10,35 @@ const requestHandler = (request, response) => {
     response.end('Hello Node.js Server!');
 };
 
-// const BudgetManagerServer = http.createServer(requestHandler);
-const BudgetManagerServer = http.Server(BudgetManagerAPI);
+const server = http.createServer((req, res) => {
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'text/plain');
+    res.end('Hello World\n');
+});
+// const BudgetManagerServer = http.createServer(BudgetManagerAPI);
+
+// const BudgetManagerServer = http.Server(BudgetManagerAPI);
+const BudgetManagerServer = http.createServer();
+
 const BudgetManagerPORT = 3001;
-const LOCAL = '0.0.0.0';
+const port = 3000;
+const LOCAL = '127.0.0.1';
 
 
-BudgetManagerServer.listen(BudgetManagerPORT, LOCAL, () => console.log(`BudgetManagerAPI running on ${BudgetManagerPORT}`));
+// BudgetManagerServer.listen(BudgetManagerPORT, LOCAL, () =>
+//     console.log(`BudgetManagerAPI running on ${BudgetManagerPORT}`)
+// );
+
+BudgetManagerServer.listen(27017, 'mongodb://127.0.0.1', () =>
+    console.log(`BudgetManagerAPI running on ${BudgetManagerPORT}`)
+);
 
 
-// BudgetManagerServer.listen(BudgetManagerPORT,  (err) => {
-//     if (err) {
-//         return console.log('something bad happened', err)
-//     }
-//     console.log(`BudgetManagerAPI running on port ${BudgetManagerPORT}`)
-// });
+
+server.listen(port, LOCAL, (err) => {
+    if (err) {
+        return console.log('something bad happened', err)
+    }
+    console.log(`All ok =)`)
+});
+
