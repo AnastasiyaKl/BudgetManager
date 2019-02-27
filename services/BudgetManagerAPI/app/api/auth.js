@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const jwt = require('jsonwebtoken');
-const config = require('../../config/index.js');
-
+// const config = require('../../config/index.js');
+const config = require('@config');
 console.log("app/api/auth");
 
 const api = {};
@@ -33,3 +33,4 @@ api.verify = (headers) => {
 };
 
 module.exports = api;
+console.info('olool');

@@ -1,6 +1,10 @@
-const passport= require('passport');
-const config = require('../../config/index.js');
-const models = require('../setup/index');
+// const passport= require('passport');
+// const config = require('../../config/index.js');
+// const models = require('../setup/index');
+require('module-alias/register');
+const passport = require('passport');
+const config = require('@config');
+const models = require('@BudgetManager/app/setup');
 
 console.log("app/routes/user");
 

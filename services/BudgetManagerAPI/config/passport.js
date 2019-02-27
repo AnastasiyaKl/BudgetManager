@@ -3,7 +3,8 @@ const ExtractJWT = PassportJWT.ExtractJwt;
 const Strategy = PassportJWT.Strategy;
 const config = require('./index.js');
 // const models = require('./services/BudgetManagerAPI/app/setup');
-const models = require('../app/setup/');
+// const models = require('../app/setup/');
+const models = require('@BudgetManager/app/setup');
 
 console.log("config/passport");
 

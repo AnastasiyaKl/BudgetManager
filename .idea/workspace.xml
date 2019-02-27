@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e01e5440-193f-4bf7-9667-7ec0bae8671f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/services/BudgetManagerAPI/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/BudgetManagerAPI/config/index.js" afterDir="false" />
+    <list default="true" id="ad5d3574-b4a0-4676-abeb-b71f716e34b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/BudgetManagerAPI/app/api/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/BudgetManagerAPI/app/api/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/BudgetManagerAPI/app/setup/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/BudgetManagerAPI/app/setup/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/BudgetManagerAPI/config/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/BudgetManagerAPI/config/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/BudgetManagerAPI/config/passport.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/BudgetManagerAPI/config/passport.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -14,88 +22,98 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1093459576">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="9" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.25" value="2" />
-          <entry key="project.open.time.31" value="2" />
-          <entry key="project.open.time.34" value="2" />
-          <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="js" value="41" />
-          <entry key="json" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JSON" value="6" />
-          <entry key="JavaScript" value="41" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="js" value="6050" />
-          <entry key="json" value="77" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JSON" value="77" />
-          <entry key="JavaScript" value="6050" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/services/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/config/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/setup/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/services/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="132">
+                  <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="616">
+                  <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/user.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="352">
+                  <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/api/user.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="154">
+                  <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/auth.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="110">
+                  <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/config/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="66">
+                  <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="55" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/setup/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="88">
+                  <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/services/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="154">
+                  <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/config/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="243">
+                  <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,6 +139,8 @@
       <find>Budget Manager API</find>
       <find>budget</find>
       <find>200</find>
+      <find>BudgetManager</find>
+      <find>bodyParser.json</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -133,34 +153,20 @@
         <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/models/passport.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/services/BudgetManagerAPI/config/passport.js" />
-        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/config/app.js" />
         <option value="$PROJECT_DIR$/services/BudgetManagerAPI/config/database.js" />
-        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/api/user.js" />
         <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/api/auth.js" />
         <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/models/user.js" />
-        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/auth.js" />
-        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/user.js" />
         <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/setup/index.js" />
         <option value="$PROJECT_DIR$/services/BudgetManagerAPI/config/index.js" />
+        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/user.js" />
+        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/api/user.js" />
         <option value="$PROJECT_DIR$/services/index.js" />
+        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/auth.js" />
+        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/config/app.js" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
-  </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="692" />
     <option name="y" value="42" />
     <option name="width" value="1393" />
@@ -177,46 +183,38 @@
         <subPane>
           <expand>
             <path>
-              <item name="focus-budget-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="focus-budget-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="BudgetManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BudgetManager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="focus-budget-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="focus-budget-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="BudgetManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BudgetManager" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="focus-budget-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="focus-budget-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="BudgetManagerAPI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="focus-budget-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="focus-budget-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="BudgetManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BudgetManager" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="BudgetManagerAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="focus-budget-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="focus-budget-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="BudgetManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BudgetManager" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="BudgetManagerAPI" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="focus-budget-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="focus-budget-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="BudgetManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BudgetManager" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="BudgetManagerAPI" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="setup" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="focus-budget-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="focus-budget-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="BudgetManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BudgetManager" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="BudgetManagerAPI" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
@@ -229,11 +227,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/services/index.js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -252,8 +250,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.run">
-    <configuration name="run" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Node.js.Herna">
+    <configuration name="Herna" type="NodeJSConfigurationType" path-to-js-file="services/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -263,7 +264,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -274,6 +275,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Node.js.Herna" />
       <item itemvalue="npm.test" />
       <item itemvalue="npm.run" />
     </list>
@@ -289,7 +291,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e01e5440-193f-4bf7-9667-7ec0bae8671f" name="Default Changelist" comment="" />
+      <changelist id="ad5d3574-b4a0-4676-abeb-b71f716e34b1" name="Default Changelist" comment="" />
       <created>1547848264782</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -306,29 +308,30 @@
       <workItem from="1550867173214" duration="3531000" />
       <workItem from="1551218199850" duration="904000" />
       <workItem from="1551220115803" duration="2808000" />
+      <workItem from="1551269064821" duration="536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44718000" />
+    <option name="totallyTimeSpent" value="47635000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="554" y="34" width="1114" height="811" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.29032257" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.13856691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.50321543" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5401929" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.50270855" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5308776" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32880846" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3681885" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3672806" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -357,8 +360,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="NodeJSConfigurationType">
+        <watch expression="app" language="JavaScript" />
+        <watch expression="BudgetManagerAPI " language="JavaScript" />
+        <watch expression="app" language="JavaScript" />
+        <watch expression="app.BudgetManagerAPI" language="JavaScript" />
+        <watch expression="app.BudgetManager" language="JavaScript" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package-lock.json">
@@ -371,24 +382,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/config/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/config/database.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/api/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -406,45 +403,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="616">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/setup/index.js">
+    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        <state relative-caret-position="352">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/api/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/config/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="55" />
+        <state relative-caret-position="66">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/setup/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+        <state relative-caret-position="132">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/body-parser/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/config/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
         </state>
       </provider>
     </entry>

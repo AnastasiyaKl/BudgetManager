@@ -16,15 +16,22 @@ console.log("config/app");
 
 app.use(express.static('.'));
 app.use(bodyParser.urlencoded({extended: true}));
-app.use(bodyParser.json);
+app.use(bodyParser.json());
 app.use(morgan('dev'));
 app.use(cors());
+
 app.set('budgetsecret', config.secret);
-
-consign({cwd: 'services'})
-    .include('../../app/setup/')
-    .then('../../app/api/')
-    .then('../../app/routes/')
-    .into(app);
-
+consign({ cwd: 'services' })
+  .include('BudgetManagerAPI/app/setup')
+  .then('BudgetManagerAPI/app/api')
+  .then('BudgetManagerAPI/app/routes')
+  .into(app);
+// app.use(function(req, res, next) {
+//   res.send('Hello World');
+// });
+//
+// // requests will never reach this route
+// app.get('/', function (req, res) {
+//   res.send('Welcome');
+// });
 module.exports = app;
