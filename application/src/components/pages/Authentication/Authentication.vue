@@ -7,7 +7,7 @@
                       prepend-icon="account_box"
                       :rules="rules"
                       required
-                      color="light-blue lighten-1">
+                      color="white">
 
         </v-text-field>
 
@@ -18,15 +18,15 @@
                       :append-icon="loginPasswordVisible ? 'visibility' : 'visibility_off'"
                       :append-icon-cb="() => (loginPasswordVisible = !loginPasswordVisible)"
                       :type="loginPasswordVisible ? 'text' : 'password'"
-                      color="light-blue lighten-1"
+                      color="white"
                       required>
         </v-text-field>
 
-        <v-btn flat color="light-blue lighten-1" @click.native="signUpVisible = true">
+        <v-btn flat color="white" @click.native="signUpVisible = true">
           Create account
         </v-btn>
 
-        <v-btn color="light-blue lighten-1" @click.native="submitAuthentication()">
+        <v-btn color="white" @click.native="submitAuthentication()">
           Login
         </v-btn>
       </v-form>
@@ -39,7 +39,7 @@
                       prepend-icon="account_box"
                       :rules="rules"
                       required
-                      color="light-blue lighten-1">
+                      color="white">
         </v-text-field>
 
         <v-text-field label="Password"
@@ -48,10 +48,10 @@
                             :append-icon="signUpVisible ? 'visibility' : 'visibility_off'"
                             :append-icon-cb="() => (signUpPasswordVisible = !signUpPasswordVisible)"
                             :type="signUpPasswordVisible ? 'text' : 'password'"
-                            color="light-blue lighten-1"
+                            color="white"
                             required>
         </v-text-field>
-        <v-btn block color="light-blue lighten-1" @click.native="submitSignUp()">Sign Up</v-btn>
+        <v-btn block color="white" @click.native="submitSignUp()">Sign Up</v-btn>
       </v-form>
     </div>
 

@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad5d3574-b4a0-4676-abeb-b71f716e34b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/assets/images/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/assets/partials/_animations.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/assets/partials/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/assets/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/components/pages/Authentication/Authentication.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/components/pages/Authentication/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/assets/partials/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/assets/partials/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/components/pages/Authentication/Authentication.vue" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/components/pages/Authentication/Authentication.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/src/assets/partials/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
-              <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -92,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/src/components/pages/Authentication/Authentication.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="103" column="37" lean-forward="true" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="37" />
+            <state relative-caret-position="132">
+              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -169,12 +163,12 @@
         <option value="$PROJECT_DIR$/application/src/router/index.js" />
         <option value="$PROJECT_DIR$/application/src/assets/partials/_animations.scss" />
         <option value="$PROJECT_DIR$/application/src/assets/styles.scss" />
-        <option value="$PROJECT_DIR$/application/src/assets/partials/_variables.scss" />
         <option value="$PROJECT_DIR$/application/index.html" />
         <option value="$PROJECT_DIR$/application/src/App.vue" />
         <option value="$PROJECT_DIR$/application/src/main.js" />
         <option value="$PROJECT_DIR$/application/src/components/pages/Authentication/index.js" />
         <option value="$PROJECT_DIR$/application/src/components/pages/Authentication/Authentication.vue" />
+        <option value="$PROJECT_DIR$/application/src/assets/partials/_variables.scss" />
       </list>
     </option>
   </component>
@@ -331,12 +325,12 @@
       <workItem from="1551218199850" duration="904000" />
       <workItem from="1551220115803" duration="2808000" />
       <workItem from="1551269064821" duration="1191000" />
-      <workItem from="1551342673663" duration="12164000" />
+      <workItem from="1551342673663" duration="13031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60454000" />
+    <option name="totallyTimeSpent" value="61321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -506,13 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/assets/partials/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/src/assets/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -557,8 +544,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/src/components/pages/Authentication/Authentication.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="103" column="37" lean-forward="true" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="37" />
+        <state relative-caret-position="132">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/assets/partials/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
         </state>
       </provider>
     </entry>
