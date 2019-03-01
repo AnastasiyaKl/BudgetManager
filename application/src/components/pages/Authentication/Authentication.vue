@@ -7,7 +7,8 @@
                       prepend-icon="account_box"
                       :rules="rules"
                       required
-                      color="white">
+                      color="white"
+                      >
 
         </v-text-field>
 
@@ -22,13 +23,9 @@
                       required>
         </v-text-field>
 
-        <v-btn flat color="white" @click.native="signUpVisible = true">
-          Create account
-        </v-btn>
+        <v-btn color="white" @click.native="signUpVisible = true">Create account</v-btn>
 
-        <v-btn color="white" @click.native="submitAuthentication()">
-          Login
-        </v-btn>
+        <v-btn color="white" @click.native="submitAuthentication()">Login</v-btn>
       </v-form>
     </div>
 
@@ -45,13 +42,14 @@
         <v-text-field label="Password"
                             prepend-icon="lock"
                             :rules="rules"
-                            :append-icon="signUpVisible ? 'visibility' : 'visibility_off'"
+                            :append-icon="signUpPasswordVisible ? 'visibility' : 'visibility_off'"
                             :append-icon-cb="() => (signUpPasswordVisible = !signUpPasswordVisible)"
                             :type="signUpPasswordVisible ? 'text' : 'password'"
                             color="white"
                             required>
         </v-text-field>
         <v-btn block color="white" @click.native="submitSignUp()">Sign Up</v-btn>
+
       </v-form>
     </div>
 
@@ -109,6 +107,16 @@ export default {
     min-width: 272px;
     max-width: 320px;
     animation: bounceIn 1s forwards ease;
+
+    label, input, .icon {
+      color: rgba(0,0,0,.54) !important
+    }
+
+    .input-group_details {
+      &:before {
+        background-color: $border-color-input !important;
+      }
+    }
   }
   .l-signup {
     background-color: $background-color;

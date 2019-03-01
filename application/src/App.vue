@@ -1,20 +1,16 @@
 <template>
-  <div id="app">
+  <v-app>
     <v-container>
-      <Authentication/>
       <router-view/>
     </v-container>
-  </div>
+  </v-app>
 </template>
 
 <script>
 
-import Authentication from './components/pages/Authentication/Authentication'
-
 export default {
   name: 'app',
   components: {
-    Authentication
   }
 }
 </script>
@@ -35,6 +31,10 @@ body{
     background-color: $background-tint;
     opacity: .3;
     z-index: -1;
+  }
+
+  .application {
+    background: transparent!important;
   }
 }
 </style>

@@ -1,6 +1,3 @@
-// const passport= require('passport');
-// const config = require('../../config/index.js');
-// const models = require('../setup/index');
 require('module-alias/register');
 const passport = require('passport');
 const config = require('@config');

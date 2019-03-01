@@ -33,4 +33,3 @@ api.verify = (headers) => {
 };
 
 module.exports = api;
-console.info('olool');
