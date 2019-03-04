@@ -16,9 +16,9 @@ Vue.use(Router)
 const router = new Router({
   routes: [
     {
-      path: '/',
+      path: '/home',
       name: 'Home',
-      component: {
+      components: {
         default: Home,
         header: Header,
         budgetList: BudgetList
@@ -36,31 +36,5 @@ const router = new Router({
   ]
 })
 
-router.beforeEach((to, from, next) => {
-  if (to.meta.requiredAuth) {
-    if (Auth.default.user.authentication) {
-      next()
-    } else {
-      router.push('login')
-    }
-  } else {
-    next()
-  }
-})
-
 export default router
 
-//   export default new Router({
-//     routes: [
-//     {
-//       path: '/login',
-//       name: 'Authentication',
-//       component: Authentication
-//     },
-//     {
-//       path: '/home',
-//       name: 'Home',
-//       component: Home
-//     }
-//   ]
-// })

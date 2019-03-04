@@ -9,7 +9,6 @@
                       required
                       color="white"
                       >
-
         </v-text-field>
 
         <v-text-field label="Password"

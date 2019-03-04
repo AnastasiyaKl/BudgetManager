@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad5d3574-b4a0-4676-abeb-b71f716e34b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/application/src/components/Budget/BudgetList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/components/Budget/BudgetListBody.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/components/Budget/BudgetListHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/components/Header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/components/pages/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/BudgetManagerAPI/app/api/budget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/BudgetManagerAPI/app/api/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/BudgetManagerAPI/app/models/budget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/BudgetManagerAPI/app/models/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/budget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/assets/partials/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/assets/partials/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/components/Header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/src/components/pages/Authentication/Authentication.vue" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/components/pages/Authentication/Authentication.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/components/pages/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/components/pages/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/BudgetManagerAPI/app/api/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/BudgetManagerAPI/app/api/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/test/unit/specs/HelloWorld.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/BudgetManagerAPI/app/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/BudgetManagerAPI/app/api/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/BudgetManagerAPI/app/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/BudgetManagerAPI/app/models/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/BudgetManagerAPI/app/setup/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/BudgetManagerAPI/app/setup/index.js" afterDir="false" />
     </list>
@@ -27,119 +29,222 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/src/components/pages/Authentication/Authentication.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-              <folding>
-                <element signature="n#v-text-field#0;n#v-form#0;n#div#1;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#v-snackbar#0;n#div#0;n#template#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/src/components/pages/Authentication/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/src/assets/partials/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/src/components/pages/Home.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="22" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="22" />
-              <folding>
-                <element signature="e#482#507#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/src/components/Budget/BudgetListHeader.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-396">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/src/components/Budget/BudgetListBody.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-88">
-              <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/src/components/Budget/BudgetList.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/src/router/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#19#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/src/components/Header.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.72139007">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/user.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="154">
+                  <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/models/client.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="528">
+                  <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/models/budget.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="462">
+                  <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/setup/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="242">
+                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/config/database.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="154">
+                  <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/api/client.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="264">
+                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/api/budget.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="858">
+                  <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/budget.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="132">
+                  <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/client.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="220">
+                  <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/auth.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="286">
+                  <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/application/src/App.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="220">
+                  <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/application/src/components/pages/Authentication/Authentication.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-132">
+                  <caret line="67" column="11" lean-forward="true" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+                  <folding>
+                    <element signature="n#v-text-field#0;n#v-form#0;n#div#1;n#div#0;n#template#0;n#!!top" />
+                    <element signature="n#v-text-field#1;n#v-form#0;n#div#1;n#div#0;n#template#0;n#!!top" />
+                    <element signature="n#v-snackbar#0;n#div#0;n#template#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/application/src/components/pages/Authentication/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="352">
+                  <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/application/src/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="396">
+                  <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                    <element signature="e#141#162#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/application/src/router/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="198">
+                  <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                    <element signature="e#19#40#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/application/src/assets/partials/_variables.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="22">
+                  <caret line="1" selection-start-line="1" selection-end-line="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/application/src/components/Header.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1122">
+                  <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/application/src/assets/styles.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="22">
+                  <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/application/src/components/pages/Home.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+                  <folding>
+                    <element signature="e#482#507#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/application/src/components/Budget/BudgetListBody.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="572">
+                  <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -169,6 +274,10 @@
       <find>setup</find>
       <find>rout</find>
       <find>router</find>
+      <find>Connected to BudgetManager database</find>
+      <find>Hello</find>
+      <find>api/v1/auth</find>
+      <find>/api/v1/auth</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,9 +291,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/services/BudgetManagerAPI/config/passport.js" />
         <option value="$PROJECT_DIR$/services/BudgetManagerAPI/config/database.js" />
-        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/models/user.js" />
         <option value="$PROJECT_DIR$/services/BudgetManagerAPI/config/index.js" />
-        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/api/user.js" />
         <option value="$PROJECT_DIR$/services/index.js" />
         <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/auth.js" />
         <option value="$PROJECT_DIR$/services/BudgetManagerAPI/config/app.js" />
@@ -193,28 +300,37 @@
         <option value="$PROJECT_DIR$/application/src/assets/styles.scss" />
         <option value="$PROJECT_DIR$/application/index.html" />
         <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/api/auth.js" />
-        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/user.js" />
-        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/setup/index.js" />
         <option value="$PROJECT_DIR$/application/src/main.js" />
         <option value="$PROJECT_DIR$/application/src/components/pages/Authentication/index.js" />
         <option value="$PROJECT_DIR$/application/src/App.vue" />
         <option value="$PROJECT_DIR$/application/src/assets/partials/_variables.scss" />
-        <option value="$PROJECT_DIR$/application/src/components/pages/Authentication/Authentication.vue" />
         <option value="$PROJECT_DIR$/application/src/components/Budget/BudgetLustHeader.vue" />
-        <option value="$PROJECT_DIR$/application/src/components/pages/Home.vue" />
         <option value="$PROJECT_DIR$/application/src/components/Budget/BudgetListBody.vue" />
-        <option value="$PROJECT_DIR$/application/src/components/Header.vue" />
         <option value="$PROJECT_DIR$/application/src/components/Budget/BudgetListHeader.vue" />
         <option value="$PROJECT_DIR$/application/src/components/Budget/BudgetList.vue" />
+        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/api/user.js" />
+        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/user.js" />
+        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/models/user.js" />
+        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/models/client.js" />
+        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/models/budget.js" />
+        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/setup/index.js" />
+        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/api/budget.js" />
+        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/client.js" />
+        <option value="$PROJECT_DIR$/application/test/unit/specs/HelloWorld.spec.js" />
+        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/budget.js" />
+        <option value="$PROJECT_DIR$/services/BudgetManagerAPI/app/api/client.js" />
+        <option value="$PROJECT_DIR$/application/src/components/pages/Home.vue" />
+        <option value="$PROJECT_DIR$/application/src/components/Header.vue" />
+        <option value="$PROJECT_DIR$/application/src/components/pages/Authentication/Authentication.vue" />
         <option value="$PROJECT_DIR$/application/src/router/index.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="296" />
-    <option name="y" value="-30" />
-    <option name="width" value="1393" />
-    <option name="height" value="1014" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -248,30 +364,7 @@
               <item name="BudgetManager" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BudgetManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BudgetManager" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BudgetManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BudgetManager" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BudgetManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BudgetManager" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Budget" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BudgetManager" type="b2602c69:ProjectViewProjectNode" />
@@ -297,6 +390,63 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BudgetManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BudgetManager" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BudgetManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BudgetManager" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="BudgetManagerAPI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BudgetManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BudgetManager" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="BudgetManagerAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BudgetManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BudgetManager" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="BudgetManagerAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BudgetManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BudgetManager" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="BudgetManagerAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BudgetManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BudgetManager" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="BudgetManagerAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BudgetManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BudgetManager" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="BudgetManagerAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="setup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BudgetManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BudgetManager" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="BudgetManagerAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -306,20 +456,20 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exx" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Work\Projects\BudgetManager\application\src\assets\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Work\Projects\BudgetManager\application\src\assets\images" />
       <recent name="D:\Learning\MyProjects\focus-budget-manager\services\BudgetManagerAPI\config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Work\Projects\BudgetManager\application\src\assets\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -334,7 +484,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.Herna">
+  <component name="RunManager" selected="npm.test-component">
     <configuration name="Herna" type="NodeJSConfigurationType" path-to-js-file="services/index.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -348,8 +498,8 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
+    <configuration name="test-component" type="js.build_tools.npm" temporary="true">
+      <package-json value="$PROJECT_DIR$/application/package.json" />
       <command value="run" />
       <scripts>
         <script value="test" />
@@ -360,13 +510,13 @@
     </configuration>
     <list>
       <item itemvalue="Node.js.Herna" />
-      <item itemvalue="npm.test" />
+      <item itemvalue="npm.test-component" />
       <item itemvalue="npm.run" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test-component" />
         <item itemvalue="npm.run" />
-        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
@@ -394,29 +544,32 @@
       <workItem from="1551220115803" duration="2808000" />
       <workItem from="1551269064821" duration="1191000" />
       <workItem from="1551342673663" duration="13109000" />
-      <workItem from="1551424450398" duration="16327000" />
+      <workItem from="1551424450398" duration="16390000" />
+      <workItem from="1551683587169" duration="11315000" />
+      <workItem from="1551705083823" duration="8775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77726000" />
+    <option name="totallyTimeSpent" value="97879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15911485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12065332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.50270855" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5308776" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.53065777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32880846" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4136009" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3154961" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -467,24 +620,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/config/database.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/api/auth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -499,13 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/api/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -530,13 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/assets/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -553,72 +678,172 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1304">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="286">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/setup/index.js">
+    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/api/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="154">
+          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#85#87#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/auth.js">
+    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="154">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/api/budget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/components/Budget/BudgetList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/components/Budget/BudgetListHeader.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/components/Budget/BudgetListBody.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/assets/partials/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="154">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="220">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/budget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/components/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/assets/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/assets/partials/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/src/components/pages/Home.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="22" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="22" />
+        <state relative-caret-position="272">
+          <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
           <folding>
             <element signature="e#482#507#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#19#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#141#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/models/budget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/models/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/api/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/routes/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/src/components/pages/Authentication/Authentication.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        <state relative-caret-position="-132">
+          <caret line="67" column="11" lean-forward="true" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
           <folding>
             <element signature="n#v-text-field#0;n#v-form#0;n#div#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#v-text-field#1;n#v-form#0;n#div#1;n#div#0;n#template#0;n#!!top" />
             <element signature="n#v-snackbar#0;n#div#0;n#template#0;n#!!top" />
           </folding>
         </state>
@@ -626,50 +851,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/src/components/pages/Authentication/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="352">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/components/Header.vue">
+    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/app/setup/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/components/Budget/BudgetListHeader.vue">
+    <entry file="file://$PROJECT_DIR$/services/BudgetManagerAPI/config/database.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/components/Budget/BudgetListBody.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/components/Budget/BudgetList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#19#40#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="154">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>

@@ -2,9 +2,9 @@
     <main class="l-home-page">
       <app-header></app-header>
       <div class="l-home">
-        <h4 class="white--text text-xs-center my-0">
+        <h2 class="white--text text-xs-center my-0">
           Focus Budget Manager
-        </h4>
+        </h2>
 
         <budget-list>
           <budget-list-header slot="budget-list-header"></budget-list-header>
